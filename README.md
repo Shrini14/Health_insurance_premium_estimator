@@ -22,7 +22,7 @@ So I:
 
 | Age Group        | Model      | Accuracy | Special Features          |
 |------------------|------------|----------|---------------------------|
-| `< 25`           | XGBoost    | 98%      | Includes `genetical_risk` |
+| `< 25`           | LinearRegression    | 98%      | Includes `genetical_risk` |
 | `>= 25`          | XGBoost    | 99%      | Standard features only     |
 
 🧪 Normalized Risk Score is calculated from medical history dynamically.
