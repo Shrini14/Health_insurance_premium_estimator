@@ -104,6 +104,7 @@ streamlit run app/main.py
 ---
 
 ## 📁 Folder Structure
+```
 ml-project-health_insurance_premium_estimator/
 │
 ├── app/
@@ -112,7 +113,7 @@ ml-project-health_insurance_premium_estimator/
 │   └── artifacts/
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ### 🧑‍💻 Developer
