@@ -102,6 +102,8 @@ cd ml-project-health_insurance_premium_estimator
 pip install -r requirements.txt
 streamlit run app/main.py
 
+---
+
 ## 📁 Folder Structure
 ml-project-health_insurance_premium_estimator/
 │
@@ -112,11 +114,14 @@ ml-project-health_insurance_premium_estimator/
 ├── requirements.txt
 └── README.md
 
+---
+
 🧑‍💻 Developer
 R. Shrinivass
 MSc Data Science | Streamlit Enthusiast | AI Research Learner
 📬 LinkedIn: https://www.linkedin.com/in/shrinivassraju14/
 
+---
 
 # ⭐ Show some ❤️ by starring this repo!
 
