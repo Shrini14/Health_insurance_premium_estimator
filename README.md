@@ -95,8 +95,7 @@ So I:
 ---
 
 ## ⚙️ How to Run Locally
-
-```bash
+``bash
 git clone https://github.com/Shrini14/ml-project-health_insurance_premium_estimator
 cd ml-project-health_insurance_premium_estimator
 pip install -r requirements.txt
@@ -116,9 +115,9 @@ ml-project-health_insurance_premium_estimator/
 
 ---
 
-🧑‍💻 Developer
-R. Shrinivass
-MSc Data Science | Streamlit Enthusiast | AI Research Learner
+# 🧑‍💻 Developer
+**R. Shrinivass**
+Data Scientist
 📬 LinkedIn: https://www.linkedin.com/in/shrinivassraju14/
 
 ---
