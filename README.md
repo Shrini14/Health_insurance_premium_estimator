@@ -7,7 +7,7 @@
 
 ## 🔥 Why This Project?
 
-Initially, one XGBoost model gave **98% accuracy** but struggled for users **< 25 years old** — with **73% predictions having >10% error**.
+Initially, one XGBoost model gave **98% accuracy** but struggled for users **<= 25 years old** — with **73% predictions having >10% error**.
 
 So I:
 - 🔍 Performed error analysis
@@ -22,8 +22,8 @@ So I:
 
 | Age Group        | Model      | Accuracy | Special Features          |
 |------------------|------------|----------|---------------------------|
-| `< 25`           | LinearRegression    | 98%      | Includes `genetical_risk` |
-| `>= 25`          | XGBoost    | 99%      | Standard features only     |
+| `<= 25`           | LinearRegression    | 98%      | Includes `genetical_risk` |
+| `> 25`          | XGBoost    | 99%      | Standard features only     |
 
 🧪 Normalized Risk Score is calculated from medical history dynamically.
 
