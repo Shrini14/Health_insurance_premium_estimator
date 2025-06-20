@@ -95,7 +95,7 @@ So I:
 ---
 
 ## ⚙️ How to Run Locally
-``bash
+bash - 
 git clone https://github.com/Shrini14/ml-project-health_insurance_premium_estimator
 cd ml-project-health_insurance_premium_estimator
 pip install -r requirements.txt
