@@ -115,9 +115,9 @@ ml-project-health_insurance_premium_estimator/
 
 ---
 
-# 🧑‍💻 Developer
+### 🧑‍💻 Developer
 **R. Shrinivass**
-Data Scientist
+(Data Scientist)
 📬 LinkedIn: https://www.linkedin.com/in/shrinivassraju14/
 
 ---
