@@ -11,17 +11,18 @@ st.markdown("""
 }
 
 .stApp {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    background: linear-gradient(135deg, #f0f9ff 0%, #f5f3ff 50%, #fef3c7 100%);
     min-height: 100vh;
 }
 
 .main-header {
     text-align: center;
-    padding: 2rem 0 3rem 0;
-    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-    border-radius: 0 0 20px 20px;
+    padding: 2.5rem 2rem 3rem 2rem;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ff8787 50%, #ffa5a5 100%);
+    border-radius: 20px;
+    margin: 1.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 15px 35px rgba(255, 107, 107, 0.2);
 }
 
 .main-header h1 {
@@ -30,103 +31,124 @@ st.markdown("""
     font-weight: 800;
     letter-spacing: 1px;
     margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .main-header p {
-    color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.95);
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .section-card {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    border: 2px solid #3b82f6;
-    border-radius: 15px;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1);
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+    border: 2px solid #ffa5a5;
+    border-radius: 18px;
+    padding: 2.2rem;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    box-shadow: 0 10px 30px rgba(255, 107, 107, 0.08);
+    transition: all 0.3s ease;
+}
+
+.section-card:hover {
+    box-shadow: 0 15px 40px rgba(255, 107, 107, 0.12);
+    transform: translateY(-2px);
 }
 
 .section-title {
-    color: #60a5fa;
-    font-size: 1.3rem;
-    font-weight: 700;
+    color: #ff6b6b;
+    font-size: 1.4rem;
+    font-weight: 800;
     margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.7rem;
 }
 
 .stNumberInput > div > div > input,
 .stSelectbox > div > div > select,
 .stSlider > div > div > div > input {
-    background-color: #0f172a !important;
-    color: white !important;
-    border: 2px solid #3b82f6 !important;
-    border-radius: 8px !important;
-    padding: 0.8rem !important;
+    background-color: #ffffff !important;
+    color: #1a202c !important;
+    border: 2.5px solid #ffb3ba !important;
+    border-radius: 10px !important;
+    padding: 0.9rem !important;
     font-size: 1rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.stNumberInput > div > div > input:focus,
+.stSelectbox > div > div > select:focus,
+.stSlider > div > div > div > input:focus {
+    border-color: #ff6b6b !important;
+    box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1) !important;
 }
 
 .stNumberInput label,
 .stSelectbox label,
 .stSlider label {
-    color: #e0e7ff !important;
-    font-weight: 600 !important;
-    font-size: 1rem !important;
+    color: #d32f2f !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
 }
 
 .stButton > button {
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 50%, #ff8787 100%) !important;
     color: white !important;
     font-size: 1.2rem !important;
-    font-weight: 700 !important;
+    font-weight: 800 !important;
     border: none !important;
-    border-radius: 12px !important;
-    padding: 1rem 3rem !important;
+    border-radius: 14px !important;
+    padding: 1.1rem 3rem !important;
     width: 100% !important;
     transition: all 0.3s ease !important;
-    box-shadow: 0 8px 15px rgba(16, 185, 129, 0.3) !important;
+    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3) !important;
     cursor: pointer !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .stButton > button:hover {
-    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 12px 25px rgba(16, 185, 129, 0.5) !important;
+    background: linear-gradient(135deg, #ff5252 0%, #ff3838 50%, #ff6b6b 100%) !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 15px 35px rgba(255, 107, 107, 0.5) !important;
 }
 
 .stButton > button:active {
-    transform: translateY(0) !important;
+    transform: translateY(-1px) !important;
 }
 
 .result-container {
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-    border-radius: 15px;
-    padding: 2.5rem;
-    margin-top: 2rem;
-    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.3);
+    background: linear-gradient(135deg, #ffd89b 0%, #ffb366 50%, #ff9a76 100%);
+    border-radius: 18px;
+    padding: 3rem 2.5rem;
+    margin: 2rem 1.5rem;
+    box-shadow: 0 15px 40px rgba(255, 107, 107, 0.25);
     animation: slideUp 0.5s ease;
+    border: 3px solid #ff8787;
+    text-align: center;
 }
 
 .result-label {
-    color: rgba(255,255,255,0.9);
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .result-value {
     color: white;
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     font-weight: 900;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
 
 @keyframes slideUp {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
@@ -134,17 +156,18 @@ st.markdown("""
     }
 }
 
-.input-row {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+.info-box {
+    background: linear-gradient(135deg, #fff5f7 0%, #fff0f3 100%);
+    border-left: 5px solid #ff6b6b;
+    padding: 1.2rem;
+    border-radius: 8px;
+    margin: 1rem 0;
 }
 
-[data-testid="stMetric"] {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    padding: 1.5rem;
-    border-radius: 12px;
-    border: 2px solid #3b82f6;
+.info-box p {
+    color: #d32f2f;
+    font-weight: 600;
+    margin: 0;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -152,7 +175,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>💊 Health Insurance Premium Estimator</h1>
-    <p>Get an accurate premium estimate based on your health profile</p>
+    <p>✨ Get an accurate premium estimate based on your health profile ✨</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -172,16 +195,16 @@ opts = {
 st.markdown('<div class="section-card">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">👤 Personal Information</div>', unsafe_allow_html=True)
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4 = st.columns(4, gap="medium")
 
 with col1:
     age = st.number_input('🎂 Age', 18, 100, 30, step=1)
 
 with col2:
-    gender = st.selectbox('👥 Gender', opts['Gender'], label_visibility="collapsed")
+    gender = st.selectbox('👥 Gender', opts['Gender'])
 
 with col3:
-    marital = st.selectbox('💍 Marital Status', opts['Marital Status'], label_visibility="collapsed")
+    marital = st.selectbox('💍 Marital Status', opts['Marital Status'])
 
 with col4:
     deps = st.number_input('👨‍👩‍👧‍👦 Dependants', 0, 20, 0, step=1)
@@ -191,7 +214,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('<div class="section-card">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">💼 Employment & Income</div>', unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3, gap="medium")
 
 with col1:
     emp = st.selectbox('💼 Employment Status', opts['Employment Status'])
@@ -207,7 +230,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('<div class="section-card">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">🏥 Health Profile</div>', unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3, gap="medium")
 
 with col1:
     bmi = st.selectbox('📏 BMI Category', opts['BMI Category'])
@@ -223,7 +246,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('<div class="section-card">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">🧬 Additional Information</div>', unsafe_allow_html=True)
 
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2, gap="medium")
 
 with col1:
     gene = st.slider('🧬 Genetical Risk Level', 0, 5, 0, step=1)
@@ -258,4 +281,4 @@ if st.button('🔍 Calculate Premium', use_container_width=True):
         </div>
         """, unsafe_allow_html=True)
     except Exception as e:
-        st.error(f"Error in prediction: {str(e)}")
+        st.error(f"❌ Error in prediction: {str(e)}")
